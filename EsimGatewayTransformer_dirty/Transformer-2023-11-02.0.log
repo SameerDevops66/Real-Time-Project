@@ -1,0 +1,309 @@
+2023-11-02 15:48:44,374 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 45652 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-11-02 15:48:44,403 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-11-02 15:48:44,488 INFO o.s.b.l.DeferredLog.logTo [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 15:48:44,490 INFO o.s.b.l.DeferredLog.logTo [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 15:48:46,209 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-02 15:48:46,229 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:48:46,229 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-11-02 15:48:46,230 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-02 15:48:46,371 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-02 15:48:46,372 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1881 ms
+2023-11-02 15:48:46,781 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-02 15:48:47,257 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-11-02 15:48:47,294 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:48:47,379 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8082 (http) with context path '/gsma/rsp2/es2plus'
+2023-11-02 15:48:47,399 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 3.746 seconds (JVM running for 5.093)
+2023-11-02 15:49:19,217 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 49548 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-11-02 15:49:19,228 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-11-02 15:49:19,347 INFO o.s.b.l.DeferredLog.logTo [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 15:49:19,348 INFO o.s.b.l.DeferredLog.logTo [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 15:49:21,278 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-02 15:49:21,300 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:49:21,300 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-11-02 15:49:21,300 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-02 15:49:21,439 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-02 15:49:21,439 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2091 ms
+2023-11-02 15:49:21,929 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-02 15:49:22,537 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-11-02 15:49:22,580 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:49:22,723 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8082 (http) with context path '/gsma/rsp2/es2plus'
+2023-11-02 15:49:22,744 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 4.208 seconds (JVM running for 5.775)
+2023-11-02 15:50:19,411 INFO o.a.j.l.DirectJDKLog.log [http-nio-8082-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 15:50:19,413 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-11-02 15:50:19,415 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-3] Completed initialization in 2 ms
+2023-11-02 15:50:19,610 INFO c.n.e.c.TransformerController.prepareEsimProfile [http-nio-8082-exec-3] Request received for prepareEsimProfile
+2023-11-02 15:50:19,611 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validating PrepareEsimProfile Request
+2023-11-02 15:50:19,611 INFO c.n.e.s.CommonServiceImpl.validatePrepareEsimProfileRequest [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validation Success - PrepareEsimProfileRequest
+2023-11-02 15:50:19,611 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Download Order request
+2023-11-02 15:50:25,637 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-3] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","profileType":"ESIM10010","header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"}}
+2023-11-02 15:50:31,774 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Download Order Request Success, Response :: {"iccid":"8931100000000000000F","header":{"functionExecutionStatus":{"status":"Executed-Success","statusCodeData":null}}}
+2023-11-02 15:50:38,806 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Confirm Order request
+2023-11-02 15:50:40,135 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-3] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","releaseFlag":true,"header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"},"matchingId":"","smdsAddress":"10.56"}
+2023-11-02 15:50:45,418 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Confirm Order Request Failed with URL http://10.76.117.91:9091/gsma/rsp2/es2plus/confirmOrder , status 200 , response {"eid":null,"matchingId":null,"smdpAddress":null,"header":{"functionExecutionStatus":{"status":"Failed","statusCodeData":{"subjectCode":"8.2.1","reasonCode":"3.9","subjectIdentifier":"8931100000000000007","message":"PROFILE_ICCID 8931100000000000007: UNKNOWN"}}}}
+2023-11-02 15:50:56,817 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)TenantId is :: 41
+2023-11-02 15:51:03,132 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending AddOrUpdatePrimaryInfo Request to ES
+2023-11-02 15:51:10,833 INFO c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] Headers :: [Authorization:"Basic c3VwZXJhZG1pbjpzdXBlcmFkbWlu", Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000000","eSimProfileStatus":"Linked","inUse":"true","tenantId":"41"}
+2023-11-02 15:51:21,205 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] sendPutRequest failed for URL:http://10.76.117.91:8080/subscriber-repository/subscription/addOrUpdatePrimaryInfo
+2023-11-02 15:51:22,147 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: [ Failed to create or update of primary info]
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:188)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:818)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:710)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:601)
+	at com.nokia.esim.service.CommonServiceImpl.sendPutRequest(CommonServiceImpl.java:73)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareAndSendAddOrUpdatePrimaryInfo(TransformerServiceImpl.java:653)
+	at com.nokia.esim.service.TransformerServiceImpl.temp_retry_method(TransformerServiceImpl.java:752)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:328)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:155)
+	at com.nokia.esim.controller.TransformerController.prepareEsimProfile(TransformerController.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-02 15:53:10,781 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 46880 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-11-02 15:53:10,793 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-11-02 15:53:10,869 INFO o.s.b.l.DeferredLog.logTo [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 15:53:10,870 INFO o.s.b.l.DeferredLog.logTo [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 15:53:12,489 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-02 15:53:12,505 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:53:12,506 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-11-02 15:53:12,506 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-02 15:53:12,645 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-02 15:53:12,646 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1775 ms
+2023-11-02 15:53:13,042 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-02 15:53:13,548 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-11-02 15:53:13,589 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:53:13,669 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8082 (http) with context path '/gsma/rsp2/es2plus'
+2023-11-02 15:53:13,688 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 3.614 seconds (JVM running for 4.87)
+2023-11-02 15:53:20,141 INFO o.a.j.l.DirectJDKLog.log [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 15:53:20,142 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 15:53:20,145 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-2] Completed initialization in 1 ms
+2023-11-02 15:53:20,332 INFO c.n.e.c.TransformerController.prepareEsimProfile [http-nio-8082-exec-2] Request received for prepareEsimProfile
+2023-11-02 15:53:20,333 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validating PrepareEsimProfile Request
+2023-11-02 15:53:20,333 INFO c.n.e.s.CommonServiceImpl.validatePrepareEsimProfileRequest [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validation Success - PrepareEsimProfileRequest
+2023-11-02 15:53:20,334 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Download Order request
+2023-11-02 15:53:27,239 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-2] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","profileType":"ESIM10010","header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"}}
+2023-11-02 15:53:30,657 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Download Order Request Success, Response :: {"iccid":"8931100000000000001F","header":{"functionExecutionStatus":{"status":"Executed-Success","statusCodeData":null}}}
+2023-11-02 15:53:33,989 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Confirm Order request
+2023-11-02 15:53:35,936 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-2] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","releaseFlag":true,"header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"},"matchingId":"","smdsAddress":"10.56"}
+2023-11-02 15:53:39,368 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Confirm Order Request Failed with URL http://10.76.117.91:9091/gsma/rsp2/es2plus/confirmOrder , status 200 , response {"eid":null,"matchingId":null,"smdpAddress":null,"header":{"functionExecutionStatus":{"status":"Failed","statusCodeData":{"subjectCode":"8.2.1","reasonCode":"3.9","subjectIdentifier":"8931100000000000007","message":"PROFILE_ICCID 8931100000000000007: UNKNOWN"}}}}
+2023-11-02 15:53:45,611 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)TenantId is :: 41
+2023-11-02 15:53:46,627 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending AddOrUpdatePrimaryInfo Request to ES
+2023-11-02 15:53:47,242 INFO c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-2] Headers :: [Authorization:"Basic c3VwZXJhZG1pbjpzdXBlcmFkbWlu", Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000001","eSimProfileStatus":"Linked","inUse":"true","tenantId":"41"}
+2023-11-02 15:53:48,323 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-2] sendPutRequest failed for URL:http://10.76.117.91:8080/subscriber-repository/subscription/addOrUpdatePrimaryInfo
+2023-11-02 15:53:48,364 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-2] org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: [ Failed to create or update of primary info]
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:188)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:818)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:710)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:601)
+	at com.nokia.esim.service.CommonServiceImpl.sendPutRequest(CommonServiceImpl.java:73)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareAndSendAddOrUpdatePrimaryInfo(TransformerServiceImpl.java:653)
+	at com.nokia.esim.service.TransformerServiceImpl.temp_retry_method(TransformerServiceImpl.java:754)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:328)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:155)
+	at com.nokia.esim.controller.TransformerController.prepareEsimProfile(TransformerController.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-02 15:53:48,376 INFO c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-2] Headers :: [Authorization:"Basic c3VwZXJhZG1pbjpzdXBlcmFkbWlu", Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000001","eSimProfileStatus":"Linked","inUse":"true","tenantId":"41"}
+2023-11-02 15:54:05,922 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)AddOrUpdatePrimaryInfo Response :: <200,Create or update of primary info details is successful,[Expires:"0", Cache-Control:"no-cache, no-store, must-revalidate", X-XSS-Protection:"1", Pragma:"no-cache", X-Frame-Options:"SAMEORIGIN", Date:"Thu, 02 Nov 2023 10:22:15 GMT", Connection:"keep-alive", Content-Type:"application/json", Content-Length:"54"]>
+2023-11-02 15:54:05,929 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-2] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Final Response :: PrepareEsimProfileResponseDto(responseId=1137469, iccid=8931100000000000001, activationCode=, errorCode=10000, errorMessage=Profile ICCID - Unknown)
+2023-11-02 15:54:11,568 INFO c.n.e.c.TransformerController.prepareEsimProfile [http-nio-8082-exec-3] Request received for prepareEsimProfile
+2023-11-02 15:54:11,569 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validating PrepareEsimProfile Request
+2023-11-02 15:54:11,569 INFO c.n.e.s.CommonServiceImpl.validatePrepareEsimProfileRequest [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Validation Success - PrepareEsimProfileRequest
+2023-11-02 15:54:11,570 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Download Order request
+2023-11-02 15:54:16,004 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-3] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","profileType":"ESIM10010","header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"}}
+2023-11-02 15:54:18,090 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Download Order Request Success, Response :: {"iccid":"8931100000000000002F","header":{"functionExecutionStatus":{"status":"Executed-Success","statusCodeData":null}}}
+2023-11-02 15:54:20,538 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending Confirm Order request
+2023-11-02 15:54:21,695 INFO c.n.e.s.CommonServiceImpl.sendPostRequest [http-nio-8082-exec-3] Headers :: [Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000007","releaseFlag":true,"header":{"functionRequesterIdentifier":"1.3.6.1.4.1.19914","functionCallIdentifier":"Optus"},"matchingId":"","smdsAddress":"10.56"}
+2023-11-02 15:54:25,382 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Confirm Order Request Failed with URL http://10.76.117.91:9091/gsma/rsp2/es2plus/confirmOrder , status 200 , response {"eid":null,"matchingId":null,"smdpAddress":null,"header":{"functionExecutionStatus":{"status":"Failed","statusCodeData":{"subjectCode":"8.2.1","reasonCode":"3.9","subjectIdentifier":"8931100000000000007","message":"PROFILE_ICCID 8931100000000000007: UNKNOWN"}}}}
+2023-11-02 15:54:32,464 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)TenantId is :: 41
+2023-11-02 15:54:33,411 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Sending AddOrUpdatePrimaryInfo Request to ES
+2023-11-02 15:54:39,981 INFO c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] Headers :: [Authorization:"Basic c3VwZXJhZG1pbjpzdXBlcmFkbWlu", Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000002","eSimProfileStatus":"Linked","inUse":"true","tenantId":"41"}
+2023-11-02 15:54:40,812 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] sendPutRequest failed for URL:http://10.76.117.91:8080/subscriber-repository/subscription/addOrUpdatePrimaryInfo
+2023-11-02 15:54:40,849 ERROR c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 Internal Server Error: [ Failed to create or update of primary info]
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:188)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:818)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:710)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:601)
+	at com.nokia.esim.service.CommonServiceImpl.sendPutRequest(CommonServiceImpl.java:73)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareAndSendAddOrUpdatePrimaryInfo(TransformerServiceImpl.java:653)
+	at com.nokia.esim.service.TransformerServiceImpl.temp_retry_method(TransformerServiceImpl.java:754)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:328)
+	at com.nokia.esim.service.TransformerServiceImpl.prepareEsimProfile(TransformerServiceImpl.java:155)
+	at com.nokia.esim.controller.TransformerController.prepareEsimProfile(TransformerController.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-02 15:54:45,005 INFO c.n.e.s.CommonServiceImpl.sendPutRequest [http-nio-8082-exec-3] Headers :: [Authorization:"Basic c3VwZXJhZG1pbjpzdXBlcmFkbWlu", Content-Type:"application/json"], Request Body :: {"eid":"89311012012341234012345678903235","iccid":"8931100000000000002","eSimProfileStatus":"Linked","inUse":"true","tenantId":"41"}
+2023-11-02 15:54:52,203 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)AddOrUpdatePrimaryInfo Response :: <200,Create or update of primary info details is successful,[Expires:"0", Cache-Control:"no-cache, no-store, must-revalidate", X-XSS-Protection:"1", Pragma:"no-cache", X-Frame-Options:"SAMEORIGIN", Date:"Thu, 02 Nov 2023 10:23:12 GMT", Connection:"keep-alive", Content-Type:"application/json", Content-Length:"54"]>
+2023-11-02 15:54:52,206 INFO c.n.e.s.TransformerServiceImpl.prepareEsimProfile [http-nio-8082-exec-3] PrepareEsimProfileRequestDto(requestId=1137469, sourceSystem=SDP, iccId=8931100000000000007, smdpName=oberthur, msisdn=, eid=89311012012341234012345678903235, reservationType=EID, releaseFlag=true, orderId=900012)Final Response :: PrepareEsimProfileResponseDto(responseId=1137469, iccid=8931100000000000002, activationCode=, errorCode=10000, errorMessage=Profile ICCID - Unknown)
+2023-11-02 15:55:22,302 INFO o.s.s.c.ExecutorConfigurationSupport.shutdown [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-11-02 15:55:22,558 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 46880 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-11-02 15:55:22,558 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-11-02 15:55:23,662 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 15:55:23,664 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 15:55:23,666 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-11-02 15:55:23,667 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-02 15:55:23,774 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-02 15:55:23,774 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1207 ms
+2023-11-02 15:55:23,943 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-02 15:55:24,158 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-11-02 15:55:24,170 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 15:55:24,190 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 15:55:24,197 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 1.773 seconds (JVM running for 135.376)
+2023-11-02 15:55:24,200 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent [restartedMain] Condition evaluation unchanged

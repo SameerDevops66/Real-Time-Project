@@ -1,0 +1,124 @@
+2023-09-26 17:25:03,832 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 12728 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-09-26 17:25:03,833 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-09-26 17:25:04,536 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-09-26 17:25:04,540 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-26 17:25:04,545 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-09-26 17:25:04,547 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-09-26 17:25:04,622 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-26 17:25:04,623 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 783 ms
+2023-09-26 17:25:04,740 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-26 17:25:04,860 INFO o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword [restartedMain] 
+
+Using generated security password: 8441c17c-cfbf-44b6-bbaa-e57b3041951d
+
+2023-09-26 17:25:04,891 INFO o.s.s.w.DefaultSecurityFilterChain.<init> [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a82adda, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f916e3, org.springframework.security.web.header.HeaderWriterFilter@641d96c6, org.springframework.security.web.csrf.CsrfFilter@4430ec32, org.springframework.security.web.authentication.logout.LogoutFilter@1257642, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@502b8ed, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@780eaf31, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78c22cfd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@437a3ee4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32ab6079, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a087b4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@689736d8, org.springframework.security.web.session.SessionManagementFilter@46eb2370, org.springframework.security.web.access.ExceptionTranslationFilter@56fc3326, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76e08a55]
+2023-09-26 17:25:04,918 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-09-26 17:25:04,931 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-09-26 17:25:04,952 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 17:25:04,956 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 1.206 seconds (JVM running for 6306.69)
+2023-09-26 17:25:04,963 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-09-26 17:25:09,897 INFO o.s.s.c.ExecutorConfigurationSupport.shutdown [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-26 17:25:09,982 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 12728 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-09-26 17:25:09,983 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-09-26 17:25:10,271 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-09-26 17:25:10,272 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-09-26 17:25:10,273 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-09-26 17:25:10,273 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-09-26 17:25:10,320 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-26 17:25:10,320 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 334 ms
+2023-09-26 17:25:10,451 INFO o.s.s.w.DefaultSecurityFilterChain.<init> [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62db01d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f1df796, org.springframework.security.web.header.HeaderWriterFilter@3593b6ec, org.springframework.security.web.authentication.logout.LogoutFilter@59f7511d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12bb66ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1932a102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@313e501e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41cec381, org.springframework.security.web.session.SessionManagementFilter@32c15835, org.springframework.security.web.access.ExceptionTranslationFilter@6708202f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49adf319]
+2023-09-26 17:25:10,502 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-26 17:25:10,608 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-09-26 17:25:10,615 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-09-26 17:25:10,632 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8082 (http) with context path '/gsma/rsp2/es2plus'
+2023-09-26 17:25:10,634 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 0.692 seconds (JVM running for 6312.368)
+2023-09-26 17:25:10,637 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper:
+      Did not match:
+         - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found beans of type 'com.fasterxml.jackson.databind.ObjectMapper' objectMapper (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+

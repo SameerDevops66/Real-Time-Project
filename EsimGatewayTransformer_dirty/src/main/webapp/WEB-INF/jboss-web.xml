@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <context-root>/gsma/rsp2/es2plus</context-root>
+</jboss-web>

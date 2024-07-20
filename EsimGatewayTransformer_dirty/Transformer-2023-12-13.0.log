@@ -1,0 +1,81 @@
+2023-12-13 11:57:31,309 INFO o.s.b.StartupInfoLogger.logStarting [restartedMain] Starting EsimGatewayTransformerApplication using Java 17.0.7 on N-5CG1417NTF with PID 2188 (C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer\target\classes started by shotyagi in C:\Users\shotyagi\Desktop\OPTUS\STS_WS\EsimGatewayTransformer)
+2023-12-13 11:57:31,323 INFO o.s.b.SpringApplication.logStartupProfileInfo [restartedMain] No active profile set, falling back to default profiles: default
+2023-12-13 11:57:31,428 INFO o.s.b.l.DeferredLog.logTo [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-13 11:57:31,429 INFO o.s.b.l.DeferredLog.logTo [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-13 11:57:32,773 INFO o.s.b.w.e.t.TomcatWebServer.initialize [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-12-13 11:57:32,783 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-12-13 11:57:32,784 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting service [Tomcat]
+2023-12-13 11:57:32,784 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-12-13 11:57:32,866 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-13 11:57:32,866 INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1436 ms
+2023-12-13 11:57:33,174 INFO o.s.s.c.ExecutorConfigurationSupport.initialize [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-13 11:57:33,584 INFO o.s.b.d.a.OptionalLiveReloadServer.startServer [restartedMain] LiveReload server is running on port 35729
+2023-12-13 11:57:33,614 INFO o.a.j.l.DirectJDKLog.log [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-12-13 11:57:33,678 INFO o.s.b.w.e.t.TomcatWebServer.start [restartedMain] Tomcat started on port(s): 8082 (http) with context path '/gsma/rsp2/es2plus'
+2023-12-13 11:57:33,705 INFO o.s.b.StartupInfoLogger.logStarted [restartedMain] Started EsimGatewayTransformerApplication in 2.95 seconds (JVM running for 4.129)
+2023-12-13 11:59:11,642 INFO o.a.j.l.DirectJDKLog.log [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-13 11:59:11,642 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-13 11:59:11,643 INFO o.s.w.s.FrameworkServlet.initServletBean [http-nio-8082-exec-1] Completed initialization in 0 ms
+2023-12-13 11:59:11,667 INFO c.n.e.c.HealthCheckController.getHealthStatus [http-nio-8082-exec-1] Request received for HealthCheck
+2023-12-13 11:59:13,306 INFO c.d.o.d.i.c.DefaultMavenCoordinates.buildFromResourceAndPrint [http-nio-8082-exec-1] DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.11.0
+2023-12-13 11:59:14,062 INFO c.d.o.d.i.c.t.Clock.getInstance [s0-admin-0] Using native clock for microsecond precision
+2023-12-13 11:59:20,699 INFO c.n.e.s.HealthCheckServiceImpl.checkCassandraDbHealth [http-nio-8082-exec-1] METADATA KEYSPACES :: {jaeger003=DefaultKeyspaceMetadata@457a2610(jaeger003), demo=DefaultKeyspaceMetadata@18bf7129(demo)}
+2023-12-13 11:59:21,025 INFO c.n.e.s.HealthCheckServiceImpl.checkCassandraDbHealth [http-nio-8082-exec-1] Cassandra Release Version :: 4.0.8
+2023-12-13 12:00:56,272 INFO c.n.e.c.TransformerController.getEsimProfileStatus [http-nio-8082-exec-4] Request received for getEsimProfileStatus
+2023-12-13 12:00:56,273 INFO c.n.e.s.TransformerServiceImpl.getEsimProfileStatus [http-nio-8082-exec-4] GetEsimProfileStatusRequestDto(requestId=1123, sourceSystem=SDP, iccid=8961026023405422004, smdpName=oberthur)Validating GetEsimProfileStatus Request
+2023-12-13 12:00:56,273 INFO c.n.e.s.CommonServiceImpl.validateGetEsimProfileStatusRequest [http-nio-8082-exec-4] GetEsimProfileStatusRequestDto(requestId=1123, sourceSystem=SDP, iccid=8961026023405422004, smdpName=oberthur)Validation Success - GetEsimProfileStatusRequest
+2023-12-13 12:00:56,273 INFO c.n.e.s.TransformerServiceImpl.getEsimProfileStatus [http-nio-8082-exec-4] GetEsimProfileStatusRequestDto(requestId=1123, sourceSystem=SDP, iccid=8961026023405422004, smdpName=oberthur)Sending GET request to ES for GetProfileStatusInfoByPrimaryIccid URL :: http://10.76.117.91:8080/subscriber-repository/subscription/getProfileStatusInfoByPrimaryIccid/8961026023405422004
+2023-12-13 12:00:56,926 ERROR c.n.e.c.TransformerController.getEsimProfileStatus [http-nio-8082-exec-4] com.nokia.esim.exception.TransformerException: EsimProfileStatus is NULL/EMPTY in response of GetProfileStatusInfoByPrimaryIccid call
+	at com.nokia.esim.service.TransformerServiceImpl.getEsimProfileStatus(TransformerServiceImpl.java:136)
+	at com.nokia.esim.controller.TransformerController.getEsimProfileStatus(TransformerController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
